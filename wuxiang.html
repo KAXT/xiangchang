@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>五香香肠配料计算器</title>
+	<link rel="stylesheet" href="css\common.css">
+    <link rel="stylesheet" href="css\wuxiang.css">
+</head>
+<body id="Login">
+    <div class="wrap">
+		<div class="top">
+            <div id="back" class="back"></div>
+            <div class="header">            
+                <div class="title">
+                    <div class="title-icon left-icon" ></div>
+                    <div class="title-text">香肠配比计算器</div>
+                    <div class="title-icon"></div>
+                </div>
+            </div>
+        </div>
+        <div id='biaoti'>五香香肠配料表</div>
+		<div class="content">
+            <div class="item">
+                <div class="label">请输入肉肉斤数</div>
+                <input type="text" placeholder="请输入" id='how' >
+                <div id="button" class="button ">确认</div>
+            </div>
+			<input type="text" placeholder="瘦肉、肥肉" id="shourou"  disabled="disabled">
+			<input type="text" placeholder="五香粉" id="wuxiang"  disabled="disabled">
+			<input type="text" placeholder="辣椒粉" id="lajiao"  disabled="disabled">
+			<input type="text" placeholder="花椒粉" id="huajiao" disabled="disabled">
+			<input type="text" placeholder="胡椒粉" id="hujiao" disabled="disabled">
+			<input type="text" placeholder="酱油" id="jiangyou" disabled="disabled">
+			<input type="text" placeholder="白糖" id="baitang" disabled="disabled">
+			<input type="text" placeholder="白酒" id="jiu" disabled="disabled">
+			<input type="text" placeholder="盐" id="yan" disabled="disabled">
+			<input type="text" placeholder="水" id="water" disabled="disabled">
+        </div>
+    </div> 
+</body>
+<script src="js\jquery-1.7.2.min.js"></script>
+<script src="js\wuxiang.js"></script>
+</html>

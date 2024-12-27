@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin:0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+::-webkit-input-placeholder{
+    color: #0C386B;
+}
+::-moz-placeholder{
+    color: #0C386B;
+}
+:-ms-input-placeholder{
+    color: #0C386B;
+}
+input:-moz-placeholder{
+    color: #0C386B;
+}
+#Login{
+    width:100vw;
+    min-height:100vh; 
+    background-image: url('../image/bg1.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(0deg, rgba(255, 220, 199, 1) 0%, rgba(247, 190, 148, 1) 100%); */
+}
+.wrap{
+    width:100%;
+    height:100%; 
+    overflow-y: auto;
+    border-radius: 4px;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.top{
+    height: 23vh;
+    width: 100%;
+    /* background-image: url('../image/header-bg.png') ;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.wrap .header{  
+    text-align: center;
+    color: #fff;
+    font-size: 22px;  
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 14vh;
+}
+.title .title-icon{
+    height: 22px;
+    width: 25px;
+}
+.left-icon{
+    background-image: url('../image/title-icon.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title .title-text{
+    font-size: 22px;    
+    color: rgba(214, 120, 58, 1); 
+    font-weight: bold; 
+    text-shadow: 1px 1px 0px  rgba(255, 255, 255, 1);
+    margin: 0px 10px;
+}
+.back{
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    height: 15px;
+    width: 30px;
+    background-image: url('../image/back.png') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#biaoti{
+    text-align: center; 
+    font-size: 22px;    
+    color: rgba(214, 120, 58, 1); 
+    font-weight: bold; 
+    text-shadow: 1px 1px 0px  rgba(255, 255, 255, 1);
+}
+.width-80{
+    width: 80%;
+}
+
+.wrap input{
+    width: 100%;
+    height:30px;
+    color: #0C386B;
+    font-weight: bolder;
+    background:  rgba(255, 255, 255, 0.5);
+    /* opacity: 0.5; */
+    border:none;
+    border-radius: 15px;
+    text-indent: 15px;
+    margin:7px 0px;
+}
+/* .wrap input::-moz-placeholder{
+    color: #0C386B;
+} */
+
+.wrap .label{
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgba(51, 51, 51, 1);
+    text-align: left;  
+    word-break: keep-all;  
+}
+.button{    
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 15px;
+    /* opacity: 0.5; */
+    color: rgba(12, 56, 107, 1);
+    font-weight: bold;
+    font-size: 16px;    
+    width: 80px;
+    cursor: pointer;
+    background: linear-gradient(180deg, rgba(255, 240, 224, 0.51) 0%, rgba(189, 50, 4, 0.5) 100%);
+    -webkit-user-select: none; /* Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    user-select: none; /* Standard syntax */
+}
+
+/* 修改placeholder的颜色 */
+::-webkit-input-placeholder { /* Chrome, Opera, Safari */
+    color: #0C386B;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #0C386B;
+    opacity: 1; /* 修复老版本Firefox的不透明度问题 */
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+    color: #0C386B;
+    opacity: 1; /* 修复Firefox的不透明度问题 */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #0C386B;
+}
